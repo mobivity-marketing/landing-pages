@@ -249,7 +249,18 @@ body {
 		padding-top: $gutter;
 		
 		p {
-			color: $grey;
+			color: $greyLight;
+		}
+
+		a {
+			color: $greyLight;
+			text-decoration: none;
+			transition: $transition;
+			
+			&:hover {
+				color: $green;
+			}
+
 		}
 
 	}
