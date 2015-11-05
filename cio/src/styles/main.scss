@@ -164,7 +164,6 @@ body {
 		margin: 0px auto;
 		width: 80%;
 		max-width: 380px;
-		height: 450px;
 		background-color: $white;
 		border-radius: 7px;
 		-webkit-box-shadow: 0px 0px 10px 0px $greyLight;
@@ -176,7 +175,66 @@ body {
 		input {
 			width: 80%;
 			margin: 0px auto;
+			margin-bottom: $gutter/2;
 			padding: $gutter/4;
+			transition: $transition;
+		}
+
+		input[type=text], textarea {
+		  -webkit-transition: all 0.30s ease-in-out;
+		  -moz-transition: all 0.30s ease-in-out;
+		  -ms-transition: all 0.30s ease-in-out;
+		  -o-transition: all 0.30s ease-in-out;
+		  outline: none;
+		  border: 1px solid $greyLight;
+		  border-radius: 7px;
+		}
+
+		input[type=text]:focus, textarea:focus {
+		  box-shadow: 0 0 5px $green;;
+		  border: 1px solid $green;;
+		}
+
+		input[type="submit"] {
+			margin-bottom: 0;
+			text-decoration: none;
+			color: $white;
+			font-size: 18px;
+			font-weight: 700;
+			border-radius: 7px;
+			background: $greenDark;
+			border: 1px solid $greenDark;
+			transition: $transition;
+
+			&:hover {
+				background: $green;
+				border: 1px solid $green;
+			}
+
+		}
+
+		::-webkit-input-placeholder {
+		   color: $greyLight;
+		   font-family: 'Roboto', sans-serif;
+		   font-weight: 300;
+		}
+
+		:-moz-placeholder { /* Firefox 18- */
+		   color: $greyLight;
+		   font-family: 'Roboto', sans-serif;
+		   font-weight: 300;  
+		}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+		   color: $greyLight;
+		   font-family: 'Roboto', sans-serif;
+		   font-weight: 300;  
+		}
+
+		:-ms-input-placeholder {  
+		   color: $greyLight;
+		   font-family: 'Roboto', sans-serif;
+		   font-weight: 300;  
 		}
 
 	}
