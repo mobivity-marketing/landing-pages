@@ -119,21 +119,41 @@ body {
 
 		p {
 			color: $white;
-			font-size: 15px;
 		}
 
 	}
 
 	.relevant {
-		background-color: $blue;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#38c3f2+0,38c3f2+100&amp;0.75+0,1+100 */
+		background: -moz-linear-gradient(top,  rgba(56,195,242,0.75) 0%, rgba(56,195,242,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(56,195,242,0.75)), color-stop(100%,rgba(56,195,242,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(56,195,242,0.75) 0%,rgba(56,195,242,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(56,195,242,0.75) 0%,rgba(56,195,242,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(56,195,242,0.75) 0%,rgba(56,195,242,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(56,195,242,0.75) 0%,rgba(56,195,242,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8038c3f2', endColorstr='#38c3f2',GradientType=0 ); /* IE6-9 */
 	}
 
 	.targeted {
-		background-color: $green;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8dc63f+0,8dc63f+100&amp;0.75+0,1+100 */
+		background: -moz-linear-gradient(top,  rgba(141,198,63,0.75) 0%, rgba(141,198,63,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(141,198,63,0.75)), color-stop(100%,rgba(141,198,63,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(141,198,63,0.75) 0%,rgba(141,198,63,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(141,198,63,0.75) 0%,rgba(141,198,63,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(141,198,63,0.75) 0%,rgba(141,198,63,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(141,198,63,0.75) 0%,rgba(141,198,63,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808dc63f', endColorstr='#8dc63f',GradientType=0 ); /* IE6-9 */
 	}
 
 	.personalized {
-		background-color: $red;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f04c41+0,f04c41+100&amp;0.75+0,1+100 */
+		background: -moz-linear-gradient(top,  rgba(240,76,65,0.75) 0%, rgba(240,76,65,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,76,65,0.75)), color-stop(100%,rgba(240,76,65,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(240,76,65,0.75) 0%,rgba(240,76,65,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(240,76,65,0.75) 0%,rgba(240,76,65,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(240,76,65,0.75) 0%,rgba(240,76,65,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(240,76,65,0.75) 0%,rgba(240,76,65,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80f04c41', endColorstr='#f04c41',GradientType=0 ); /* IE6-9 */
 	}
 
 }
@@ -157,8 +177,8 @@ body {
 // Section 5
 
 .sectionFive {
-	padding-top: $gutter*1.5;
-	padding-bottom: $gutter*1.5;
+	padding-top: $gutter*2;
+	padding-bottom: $gutter*2;
 	text-align: center;
 
 	h3 {
@@ -205,7 +225,6 @@ body {
 			margin-bottom: 0;
 			text-decoration: none;
 			color: $white;
-			font-size: 18px;
 			font-weight: 700;
 			border-radius: 7px;
 			background: $greenDark;
@@ -245,11 +264,21 @@ body {
 
 	}
 
+}
+
+footer {
+	text-align: center;
+	padding-top: $gutter;
+	padding-bottom: $gutter;
+	background-color: $white;
+	border-top: 1px solid rgba(148, 156, 161, 0.25);
+
 	.legal {
-		padding-top: $gutter;
-		
+
 		p {
 			color: $greyLight;
+			font-weight: 300;
+			font-size: 12px;
 		}
 
 		a {
@@ -264,7 +293,6 @@ body {
 		}
 
 	}
-
 }
 
 

@@ -66,19 +66,19 @@
     <!-- Section 3 Start -->
 
   	<div class="container-fluid sectionThree">
-  		<div class="col-md-4 relevant">
+  		<div class="col-md-4 relevant threeColumn">
   			<img src="dist/images/relevant.svg" data-fallback="dist/images/relevant.png" alt="Relevant Marketing">
-  			<p>Campaigns are relevant<br> because we know what<br> will motivate individual<br> customer behavior.</p>
+  			<p>Our clients' campaigns stay highly relevant because we know what will motivate individual customer purchasing behavior.</p>
   		</div>
 
-  		<div class="col-md-4 targeted">
+  		<div class="col-md-4 targeted threeColumn">
   			<img src="dist/images/targeted.svg" data-fallback="dist/images/targeted.png" alt="Targeted Marketing">
-  			<p>Campaigns are targeted<br> to the best mediums, days,<br> and day-parts to capture<br> customer attention.</p>
+  			<p>Create campaigns that are targeted to the best mediums, days, and day-parts to capture customer attention when it matters most.</p>
   		</div>
 
-  		<div class="col-md-4 personalized">
+  		<div class="col-md-4 personalized threeColumn">
   			<img src="dist/images/personalized.svg" data-fallback="dist/images/personalized.png" alt="Personalized Marketing">
-  			<p>Campaigns are personalized based on<br> basket-level purchase detail and offer<br> redemption history, along with interest data,<br> so they resonate with individual customers.</p>
+  			<p>Campaigns are personalized based on basket-level purchase detail and redemption history, along with interest data, so they resonate with individual customers.</p>
   		</div>
   	</div>
 
@@ -115,14 +115,22 @@
         </form>
         <script type="text/javascript" src="https://mobimark.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=2f8ce0f09b7e4b4062406a96359cb4e8"></script>
   		</div>
-
-			<div class="legal">
-				<p><a href="http://www.mobivity.com">Mobivity</a> © 2006-2016</p>
-				<p><a href="http://mobivity.com/terms-and-conditions/">Terms and Conditions</a> | <a href="http://mobivity.com/privacy/">Privacy Policy</a> | <a href="http://mobivity.com/code-of-ethics/">Code of Ethics</a></p>
-			</div>
   	</div>
 
   	<!-- Section 5 End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+      <div class="container-fluid">
+        <div class="legal">
+          <p><a href="http://www.mobivity.com">Mobivity</a> © 2006-2016</p>
+          <p><a href="http://mobivity.com/terms-and-conditions/">Terms and Conditions</a> | <a href="http://mobivity.com/privacy/">Privacy Policy</a> | <a href="http://mobivity.com/code-of-ethics/">Code of Ethics</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -140,6 +148,12 @@
       ga('create', 'UA-43406911-1', 'auto');
       ga('send', 'pageview');
 
+    </script>
+    <!-- Match Height Function -->
+    <script>
+      $(function() {
+          $('.threeColumn').matchHeight();
+      });
     </script>
   </body>
 
