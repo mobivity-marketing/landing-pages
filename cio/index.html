@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" id="jumboContent">
         	<h1>Make your marketing more relevant, targeted, and personal to increase frequency and spending levels.</h1>
         	<a href="#formSection">Get Started</a>
         </div>
@@ -67,17 +67,17 @@
 
   	<div class="container-fluid sectionThree">
   		<div class="col-md-4 relevant threeColumn">
-  			<img src="dist/images/relevant.svg" data-fallback="dist/images/relevant.png" alt="Relevant Marketing">
+  			<img src="dist/images/relevant.svg" class="threeColIcon" data-fallback="dist/images/relevant.png" alt="Relevant Marketing">
   			<p>Our clients' campaigns stay highly relevant because we know what will motivate individual customer purchasing behavior.</p>
   		</div>
 
   		<div class="col-md-4 targeted threeColumn">
-  			<img src="dist/images/targeted.svg" data-fallback="dist/images/targeted.png" alt="Targeted Marketing">
+  			<img src="dist/images/targeted.svg" class="threeColIcon" data-fallback="dist/images/targeted.png" alt="Targeted Marketing">
   			<p>Create campaigns that are targeted to the best mediums, days, and day-parts to capture customer attention when it matters most.</p>
   		</div>
 
   		<div class="col-md-4 personalized threeColumn">
-  			<img src="dist/images/personalized.svg" data-fallback="dist/images/personalized.png" alt="Personalized Marketing">
+  			<img src="dist/images/personalized.svg" class="threeColIcon" data-fallback="dist/images/personalized.png" alt="Personalized Marketing">
   			<p>Campaigns are personalized based on basket-level purchase detail and redemption history, along with interest data, so they resonate with individual customers.</p>
   		</div>
   	</div>
@@ -138,6 +138,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     <!-- Main JS File -->
     <script src="dist/scripts/main.min.js"></script>
+    <!-- Match Height Function -->
+    <script>
+      $(function() {
+          $('.threeColumn').matchHeight();
+      });
+    </script>
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -148,12 +154,6 @@
       ga('create', 'UA-43406911-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
-    <!-- Match Height Function -->
-    <script>
-      $(function() {
-          $('.threeColumn').matchHeight();
-      });
     </script>
   </body>
 

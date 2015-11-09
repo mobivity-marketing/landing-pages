@@ -26,6 +26,7 @@ body {
 	margin-bottom: 0px;
 	background-color: transparent;
 	border-color: transparent;
+	border-bottom: 1px solid $greyLight;
 }
 
 .navbar-brand {
@@ -42,7 +43,7 @@ body {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-	background: url(../images/hero-bg.jpg);
+	background: url(../images/hero-bg.jpg) fixed;
 
   .container {
 		padding-top: $gutter*3;
@@ -77,7 +78,7 @@ body {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 	.jumbotron {
 		background: url(../images/hero-bg.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;

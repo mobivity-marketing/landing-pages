@@ -408,6 +408,17 @@ $(function() {
 });
 
 
+$(window).scroll(function(){
+    $("#jumboContent").css("opacity", 1 - $(window).scrollTop() / 550);
+});
+
+
+
+
+
+
+
+
 
 
 
