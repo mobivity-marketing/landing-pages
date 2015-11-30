@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:700,700italic,300italic,300,500,500italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700);
 @import 'normalize';
 @import 'variables';
 @import 'typography';
@@ -22,7 +22,7 @@ body {
 
 // Hero & Header
 
-.navbar, .navbar-default, .newNav {
+.navbar, .navbar-default {
 	margin-bottom: 0px;
 	background-color: transparent;
 	border-color: transparent;
@@ -35,6 +35,7 @@ body {
 	
 	img {
 		width: 150px;
+		height: auto;
 		display: inline;
 	}
 
