@@ -46,11 +46,17 @@ body {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-	background-color: $skyBlue;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#78b0b6+0,467f83+100 */
+	background: #78b0b6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #78b0b6 0%, #467f83 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #78b0b6 0%,#467f83 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #78b0b6 0%,#467f83 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78b0b6', endColorstr='#467f83',GradientType=0 ); /* IE6-9 */
+
 
   .container {
-		padding-top: $gutter*3;
-		padding-bottom: $gutter*3;
+		padding-top: $gutter;
+		padding-bottom: $gutter;
 		text-align: center;
 		color: $white;
 
@@ -75,6 +81,10 @@ body {
 				border: 1px solid $greenDark;
 			}
 
+		}
+
+		.CFAIllustration {
+			margin-top: -140px;
 		}
 
   }
