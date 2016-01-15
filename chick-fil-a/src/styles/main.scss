@@ -61,7 +61,7 @@ body {
 		a {
 			text-decoration: none;
 			color: $white;
-			padding: 10px 30px;
+			padding: 7.5px 10px;
 			font-size: 18px;
 			font-weight: 700;
 			border-radius: 7px;
@@ -316,13 +316,13 @@ footer {
 	.legal {
 
 		p {
-			color: $greyLight;
+			color: $grey;
 			font-weight: 300;
 			font-size: 12px;
 		}
 
 		a {
-			color: $greyLight;
+			color: $grey;
 			text-decoration: none;
 			transition: $transition;
 			
