@@ -279,25 +279,25 @@ body {
 		}
 
 		::-webkit-input-placeholder {
-		   color: $greyLight;
+		   color: $grey;
 		   font-family: 'Roboto', sans-serif;
 		   font-weight: 300;
 		}
 
 		:-moz-placeholder { /* Firefox 18- */
-		   color: $greyLight;
+		   color: $grey;
 		   font-family: 'Roboto', sans-serif;
 		   font-weight: 300;  
 		}
 
 		::-moz-placeholder {  /* Firefox 19+ */
-		   color: $greyLight;
+		   color: $grey;
 		   font-family: 'Roboto', sans-serif;
 		   font-weight: 300;  
 		}
 
 		:-ms-input-placeholder {  
-		   color: $greyLight;
+		   color: $grey;
 		   font-family: 'Roboto', sans-serif;
 		   font-weight: 300;  
 		}
