@@ -2,7 +2,7 @@
 @import 'normalize';
 @import 'variables';
 @import 'typography';
-@import 'clouds';
+// @import 'clouds';
 
 // Global Settings
 
@@ -12,6 +12,7 @@ html {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
+	// overflow-x: hidden !important;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden !important;
+	// overflow-x: hidden !important;
 }
 
 // Hero & Header
@@ -58,6 +59,10 @@ body {
 			padding-bottom: $gutter;
 			text-shadow: 3.5px 3.5px 4px $blackLight;
 			z-index: 10;
+		}
+
+		p {
+			padding-bottom: $gutter;
 		}
 
 		a {
@@ -120,11 +125,17 @@ body {
 		color: $black;
 		font-size: 18px;
 		padding-bottom: $gutter;
+
+		&.heading {
+			font-weight: bold;
+			padding-bottom: 0px !important;
+		}
+
 	}
 
 	@media screen and (min-width: 962px) {
 
-		h3 {
+		.heading {
 			padding-bottom: 0px;
 			padding-top: 25px;
 		}
@@ -133,9 +144,9 @@ body {
 
 	@media screen and (min-width: 1200px) {
 
-		h3 {
+		.heading {
 			padding-bottom: 0px;
-			padding-top: 75px;
+			padding-top: 60px;
 		}
 
 	}
