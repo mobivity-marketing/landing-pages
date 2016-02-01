@@ -2,6 +2,7 @@
 @import 'normalize';
 @import 'variables';
 @import 'typography';
+@import 'animate';
 // @import 'clouds';
 
 // Global Settings
@@ -42,6 +43,14 @@ body {
 
 }
 
+.phone {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	color: $white;
+	font-weight: bold;
+}
+
 .jumbotron {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -57,12 +66,15 @@ body {
 
 		h1 {
 			padding-bottom: $gutter;
-			text-shadow: 3.5px 3.5px 4px $blackLight;
-			z-index: 10;
+			text-shadow: 3px 3px 0px $cfaRed;
+			text-transform: uppercase;
+			color: $white;
 		}
 
 		p {
 			padding-bottom: $gutter;
+			font-size: 2em;
+			text-shadow: 3.5px 3.5px 4px $blackLight;
 		}
 
 		a {
