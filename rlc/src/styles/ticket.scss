@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700);
+@import 'normalize';
+@import 'variables';
+@import 'typography';
+@import 'animate';
+// @import 'clouds';
+
+// Global Settings
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	color: $black;
+	background: url('../images/pattern-bg.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.eventTicket {
+	margin: 0px auto;
+	width: 75%;
+	max-width: 400px;
+}
