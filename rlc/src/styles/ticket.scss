@@ -14,11 +14,12 @@ html, body {
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
 	color: $black;
-	background: url('../images/pattern-bg.jpg') no-repeat center center fixed; 
+	background: url('../images/pattern-bg.jpg') center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-repeat: repeat;
 	text-align: center;
 }
 
