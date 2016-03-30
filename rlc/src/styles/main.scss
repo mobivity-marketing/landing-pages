@@ -74,11 +74,12 @@ body {
 			padding-bottom: $gutter/2;
 			font-weight: 700;
 			text-shadow: 3px 3px $greenDark;
+			font-size: 28px !important;
 		}
 
 		p {
 			padding-bottom: $gutter/2;
-			font-size: 36px;
+			font-size: 24px;
 			text-shadow: 2px 2px $greenDark;
 		}
 
@@ -177,7 +178,6 @@ body {
 
 		img {
 			height: 95px;
-			// margin-bottom: $gutter/2;
 		}
 
 		p {
@@ -272,6 +272,9 @@ body {
 .clientSection {
 	text-align: center;
 	padding: $gutter*2 0px;
+	-webkit-box-shadow: inset 0px -3px 7px 0px rgba(88,89,91,0.35);
+	-moz-box-shadow: inset 0px -3px 7px 0px rgba(88,89,91,0.35);
+	box-shadow: inset 0px -3px 7px 0px rgba(88,89,91,0.35);
 
 	h1 {
 		color: $black;
@@ -283,6 +286,7 @@ body {
 
 		img {
 			max-width: 75%;
+			max-height: 200px;
 		}
 
 	}
@@ -294,12 +298,13 @@ body {
 	padding-top: $gutter*2;
 	padding-bottom: $gutter*2;
 	text-align: center;
-	background-color: $greyLight;
+	background-color: $white;
 
 	h3 {
 		color: $blue;
 		font-weight: 700;
 		padding-bottom: $gutter;
+		text-shadow: 2px 2px $greyLight;
 	}
 
 	.form {
@@ -307,10 +312,10 @@ body {
 		width: 80%;
 		max-width: 380px;
 		border-radius: 7px;
-		background-color: $white;
-		-webkit-box-shadow: 0px 0px 10px 0px $greyLight;
-		-moz-box-shadow: 0px 0px 10px 0px $greyLight;
-		box-shadow: 0px 0px 10px 0px $greyLight;
+		background-color: $greyLight;
+		-webkit-box-shadow: 0px 0px 10px 0px $grey;
+		-moz-box-shadow: 0px 0px 10px 0px $grey;
+		box-shadow: 0px 0px 10px 0px $grey;
 		padding-top: $gutter;
 		padding-bottom: $gutter;
 		
@@ -386,24 +391,26 @@ footer {
 	text-align: center;
 	padding-top: $gutter;
 	padding-bottom: $gutter;
-	background-color: $white;
-	border-top: 1px solid rgba(148, 156, 161, 0.25);
+	background-color: $green;
+	// border-top: 1px solid rgba(148, 156, 161, 0.25);
 
 	.legal {
 
 		p {
-			color: $grey;
+			color: $white;
 			font-weight: 300;
 			font-size: 12px;
+			font-weight: 700;
 		}
 
 		a {
-			color: $grey;
+			color: $white;
 			text-decoration: none;
 			transition: $transition;
+			font-weight: 700;
 			
 			&:hover {
-				color: $green;
+				color: $greyLight;
 			}
 
 		}
