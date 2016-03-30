@@ -176,7 +176,7 @@ body {
 		min-height: 1px;
 
 		img {
-			height: 150px;
+			height: 95px;
 			// margin-bottom: $gutter/2;
 		}
 
@@ -241,14 +241,26 @@ body {
 		text-shadow: 2px 2px 2px $black;
 	}
 
-	.col-sm-8 {
-		margin-top: $gutter;
-	}
-
-	@media screen and (min-width: 990px) {
+	@media screen and (max-width: 767px) {
 
 		.col-sm-8 {
-			margin-top: $gutter*2.25;
+			margin-top: $gutter;
+		}
+
+	}
+
+	@media screen and (min-width: 767px) and (max-width: 991px) {
+
+		img {
+			margin-top: $gutter;
+		}
+
+	}
+
+	@media screen and (min-width: 1200px) {
+
+		.col-sm-8 {
+			margin-top: $gutter;
 		}
 
 	}
